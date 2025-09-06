@@ -42,3 +42,18 @@
       border: 1px solid #ccc;
       border-radius: 4px;
     }
+
+    button {
+      width: 100%;
+      background-color: #ff4d4d;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e60000;
+    }
