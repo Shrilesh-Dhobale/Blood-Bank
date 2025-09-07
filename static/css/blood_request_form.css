@@ -15,7 +15,7 @@
  }
 
  #header {
-     color: #ff4d4d;
+     color: cc0000;
      padding: 10px 0;
      text-align: center;
  }
@@ -45,7 +45,7 @@
 
  button {
      width: 100%;
-     background-color: #ff4d4d;
+     background-color: cc0000;
      color: white;
      border: none;
      padding: 12px;
@@ -55,5 +55,5 @@
  }
 
  button:hover {
-     background-color: #e60000;
+     background-color: #ad0202;
  }
