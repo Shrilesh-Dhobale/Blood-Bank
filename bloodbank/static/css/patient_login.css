@@ -28,7 +28,7 @@ body{
 .login-container h2 {
     margin-bottom: 20px;
     color: #cc0000;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .login-container button{
@@ -38,11 +38,28 @@ body{
     padding: 12px;
     width: 100%;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     margin-top: 10px;
 }
 
 .login-container button:hover {
     background: #990000;
+}
+
+.register-section{
+    display: flex;
+    justify-content: center;  
+    gap: 8px;                
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.register-section a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-section a:hover{
+    text-decoration: underline;
 }
