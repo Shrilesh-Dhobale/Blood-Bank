@@ -6,7 +6,7 @@
     }
 
 #card {
-      background-color: #f4f4f4;
+      background-color: #fff;
       width: 600px;
       margin: 50px auto;
       border-radius: 5px;
@@ -21,7 +21,7 @@
     }
 
     #form-container {
-      background-color: #f4f4f4;
+      background-color: #fff;
       margin: 30px auto;
       padding: 20px;
     }

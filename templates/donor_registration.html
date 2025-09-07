@@ -10,36 +10,37 @@
 
 <body>
     <div id="card">
-        <div id="header">
-            <h2>Donor Registration</h2>
-        </div>
-
-        <div id="form-container">
-            <form>
-                <label>Username:</label><br>
-                <input type="text" required><br><br>
-
-                <label>Email address:</label><br>
-                <input type="email" required><br><br>
-
-                <label>Password:</label><br>
-                <input type="password" required><br><br>
-
-                <label>Phone no:</label><br>
-                <input type="tel" required><br><br>
-
-                <label>Address</label><br>
-                <textarea rows="3" required></textarea><br><br>
-            </form>
-
-        </div>
-        <div id="register-button">
-            <button type="submit">Register</button>
-        </div>
-        <div id="login-link">
-            <p>Already have an account? <a href="/templates/donor_login.html">Login here</a></p>
-        </div>
+    <div id="header">
+      <h2>Donor Registration</h2>
     </div>
+
+    <div id="form-container">
+      <form action="/submit_registration" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="phone">Phone no:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+
+        <div id="register-button">
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    
+
+    <div id="login-link">
+      <p>Already have an account? <a href="/templates/donor_login.html">Login here</a></p>
+    </div></div>
+  </div>
 </body>
 
 </html>

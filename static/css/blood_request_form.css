@@ -15,7 +15,7 @@
  }
 
  #header {
-     color: cc0000;
+     color: #cc0000;
      padding: 10px 0;
      text-align: center;
  }
@@ -37,7 +37,7 @@
  input[type="number"],
  input[type="tel"] {
      width: 100%;
-     padding: 8px;
+     padding: 8px 0px;
      margin-bottom: 15px;
      border: 1px solid #ccc;
      border-radius: 4px;
@@ -45,13 +45,14 @@
 
  button {
      width: 100%;
-     background-color: cc0000;
+     background-color: #cc0000;
      color: white;
      border: none;
      padding: 12px;
      font-size: 16px;
      border-radius: 5px;
      cursor: pointer;
+     margin-top: 25px;
  }
 
  button:hover {
