@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Blood Donation Form</h2>
+        <form>
+            <label for="inputFullName">Enter Full Name: </label>
+            <input type="text" id="inputFullName"  required/>
+            <label for="inputAge">Enter Your Age</label>
+            <input type="age" id="input"required/>
+            
+            <input list="blood-group" placeholder="Select your blood group" required /> 
+            <datalist id="blood-group">
+                <option value="O+">
+                <option value="O-">
+                <option value="A+">
+                <option value="A-">
+                <option value="B+">
+                <option value="B-">
+                <option value="AB+">
+                <option value="AB-">
+            </datalist>
+            <input type="number" placeholder="Enter Your Phone Number" required/>
+            <input type="mail" placeholder="Enter Your Email" required/>
+            Donation Date: <input type="date" />
+        </form>
+
+    </div>
+</body>
+</html>
