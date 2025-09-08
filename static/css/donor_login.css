@@ -54,3 +54,17 @@ button {
 button:hover {
     background-color: #a40202;
 }
+
+#register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
