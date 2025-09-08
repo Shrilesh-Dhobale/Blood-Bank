@@ -18,6 +18,7 @@ body{
 }
 
 .form-container h2{
+    margin-top: 0;
     margin-bottom: 20px;
     color: #cc0000;
     font-size: 40px;
@@ -43,8 +44,9 @@ body{
 label {
   font-weight: bold;
   display: block;
-
-
+  text-align: left;
+  margin-bottom: 4px;
+  font-size: 18px;
 }
 
 input, select, textarea {
