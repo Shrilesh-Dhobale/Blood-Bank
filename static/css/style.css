@@ -74,3 +74,21 @@ button:hover {
     box-sizing: border-box;
     text-align: center;
 }
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+}
+
+.card h3 {
+    color: #cc0000;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #333;
+    font-size: 18px;
+}
