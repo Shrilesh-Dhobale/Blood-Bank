@@ -21,12 +21,14 @@ body{
 h1{
     font-size: 50px;
     margin: 0;
+    margin-bottom: 10px;
 
 }
 h2{
     font-size: 40px;
     color: #d8af4e;
     margin: 0;
+    margin-bottom: 20px;
 
 }
 .btn1{
@@ -41,8 +43,13 @@ h2{
     margin-top: 10px;
 }
 
+h4{
+     margin-bottom: 25px;
+    
+}
+
 .btn2{
-    background-color: #cc0000;
+    background-color: #007bff; 
     color: white;
     border: none;
     padding: 12px;
@@ -58,5 +65,5 @@ h2{
     }
 
 .btn2:hover {
-      transform: scale(1.05);
+      background: #0056b3; 
     }
