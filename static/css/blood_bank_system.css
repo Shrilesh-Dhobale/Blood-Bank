@@ -3,7 +3,8 @@ body{
   justify-content: center; 
   align-items: center;     
   height: 100vh;           
-  margin: 0 auto;                 
+  margin: 0 auto;          
+        
 }
 
 .container{
@@ -16,37 +17,44 @@ body{
     max-width: 500px;
 }
 
+
+h1{
+    font-size: 50px;
+    margin: 0;
+
+}
 h2{
-    font-size: 24px;
+    font-size: 40px;
+    color: #d8af4e;
     margin: 0;
 
 }
 .btn1{
-   width: 50%;
-     background-color: #cc0000;
-     color: white;
-     border: none;
-     padding: 12px;
-     font-size: 16px;
-     border-radius: 5px;
-     cursor: pointer;
-     margin-top: 25px;
+   background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .btn2{
-    width: 50%;
-     background-color: #1C6EA4;
-     color: white;
-     border: none;
-     padding: 12px;
-     font-size: 16px;
-     border-radius: 5px;
-     cursor: pointer;
-     margin-top: 25px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .btn1:hover {
-      transform: scale(1.05);
+      background: #990000;
     }
 
 .btn2:hover {
